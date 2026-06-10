@@ -1,0 +1,6 @@
+{
+  "name": "Plataforma de Cine y Boleteria",
+  "description": "Plataforma de administracion de salas, funciones repetitivas, comunicacion con distribuidoras, promociones automaticas 2x1 y venta online/fisica con NIT y QR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
