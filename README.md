@@ -159,9 +159,6 @@ El adaptador `apiService` espera recibir e interactuar con los siguientes endpoi
 
 ---
 
-## 🛠️ 6. Solución de Problemas del archivo `package-lock.json`
-Si el sistema arrojaba errores al intentar descargar el proyecto o desplegarlo en la nube por anomalías en las arquitecturas de contenedor de dependencias:
-1. **Hemos removido permanentemente el archivo `package-lock.json` binario cruzado** para evitar conflictos de sistema operativo.
 2. Al ejecutar `npm install` localmente o en tu flujo de CI/CD de GitHub, el instalador generará un **nuevo candado (`package-lock.json`) nativo y óptimo**.
 3. El proyecto se compila y completa exitosamente (`npm run lint` y `npm run build` pasan en verde).
 
